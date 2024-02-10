@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("https://plus.unsplash.com/premium_photo-1673264933048-3bd3f5b86f9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8fDA%3D");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    width:550px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.205) transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top:40px;
+    overflow: hidden;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    height:105px;
+    margin: 3%;
+  
+}
+input[type="text"]{
+    width: 75%;
+    height: 45px;
+    margin-inline-start: 5%;
+    background: rgba(0, 0, 0, 0.298);
+    border: 1px solid black;
+    margin-block: 30px;
+    border-radius: 10px;
+    padding-left:20px ;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+button{
+    width:60px;
+    height:60px;
+    margin-block: 22.5px;
+    margin-inline-start: 0px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.298);
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input::placeholder{
+    color: black;
+    
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+.outputbox{
+    width:530px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.205) transparent;
+   
+   
+   text-align: center;
+    margin:10px;
+
+}
+.cityname{
+    margin-top: 5px;
+    font-size: 25px;
+    color: black;
+   
+}
+.child_div{
+    width: 520px;
+    height: 140px;
+    margin: 5px;
+    
+    display: flex;
+}
+.imgs{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    
+}
+.descrp{
+    width: 160px;
+    height: 120px;
+    margin: 10px;
+    margin-inline: 50px;
+    
+}
+.temp1{
+    font-size:40px;
+    font-weight: 500;
+    color: black;
+}
+.description{
+    font-size:30px;
+    font-weight:400;
+    color: black;
+    margin-top: 5px;
+}
+
+.infodiv{
+    width: 520px;
+    height: 160px;
+    margin: 5px;
+   
+    display: flex;
+}
+.innerbox{
+    width: 180px;
+    height: 150px;
+    margin: 5px;
+    margin-inline-start: 100px;
+    
+}
+.humidity{
+    font-size:25px;
+    font-weight:400;
+    color: black;
+    margin-top: 5px;
+}
+.mintemp{
+    font-size:20px;
+    font-weight:400;
+    color: black;
+    margin-top: 5px;
+}
+.maxtemp{
+    font-size:20px;
+    font-weight:400;
+    color: black;
+    margin-top: 5px;
+    
+}
+.wind{
+    font-size:20px;
+    font-weight:400;
+    color: black;
+    margin-top: 5px;
+}
+.img404{
+    width:250px;
+    height:250px;
+    margin: 150px;
+    
+}
+@media(max-width:980px){
+    body{
+        background-size:160%;
+    }
+    
+}
+@media(max-width:605px){
+    .box{
+        width: 450px;
+        backdrop-filter: blur(1px);
+    }
+    .outputbox{
+        width:430px;
+        text-align: center;
+    }
+    body{
+        background-size: 210%;
+    }
+    .description,.temp1,.maxtemp,.mintemp,.humidity,.wind{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+@media(max-width:495px){
+    .box{
+        width: 380px;
+        backdrop-filter: blur(1px);
+    }
+    .outputbox{
+        width:350px;
+        text-align: center;
+    }
+    body{
+        background-size: 250%;
+    }
+    .description,.temp1,.maxtemp,.mintemp,.humidity,.wind{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}@media(max-width:400px){
+    .box{
+        width: 340px;
+        backdrop-filter: blur(1px);
+    }
+    .outputbox{
+        width:310px;
+        text-align: center;
+    }
+    body{
+        background-size: 290%;
+    }
+    .description,.temp1,.maxtemp,.mintemp,.humidity,.wind{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    input[type="text"]{
+        height: 40px;
+    }
+    button{
+    height: 40px;
+    }
+}
