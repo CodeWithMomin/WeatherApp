@@ -14,7 +14,7 @@ const APIkey="4357583b230e807b4489064bb6883af0";
    {
     let img=document.createElement("img");
     img.className+="img404";
-    img.src="images/404.png"
+    img.src="404.png"
     box.appendChild(img);
     alert("You have Entered Wrong City Name. Please Enter Coorect one");
     setTimeout(() => {
