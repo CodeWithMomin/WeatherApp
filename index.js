@@ -36,23 +36,23 @@ const APIkey="4357583b230e807b4489064bb6883af0";
     img.className+="imgs";
     switch (data.weather[0].main) {
         case "Clear":
-          img.src = "images/clear.png";
+          img.src = "clear.png";
           break;
 
         case "Rain":
-          img.src = "images/rain.png";
+          img.src = "rain.png";
           break;
 
         case "Snow":
-          img.src = "images/snow.png";
+          img.src = "snow.png";
           break;
 
         case "Clouds":
-          img.src = "images/cloud.png";
+          img.src = "cloud.png";
           break;
 
         case "Haze":
-          img.src = "https://cdn-icons-png.flaticon.com/128/9361/9361636.png";
+          img.src = "mist.png";
           break;
         case "smoke":
         
