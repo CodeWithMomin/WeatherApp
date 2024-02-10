@@ -52,7 +52,7 @@ const APIkey="4357583b230e807b4489064bb6883af0";
           break;
 
         case "Haze":
-          img.src = "images/mist.png";
+          img.src = "https://cdn-icons-png.flaticon.com/128/9361/9361636.png";
           break;
         case "smoke":
         
