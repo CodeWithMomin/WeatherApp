@@ -207,7 +207,7 @@ input::placeholder{
         text-align: center;
     }
     body{
-        background-size: 290%;
+        background-size: 340%;
     }
     .description,.temp1,.maxtemp,.mintemp,.humidity,.wind{
         font-size: 20px;
