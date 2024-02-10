@@ -2,7 +2,8 @@
 
 <h1>Weather Updates</h1>
 <p>This weather application allows users to enter the name of a city and retrieve the current weather conditions for that city. The application uses the OpenWeatherMap API to fetch the weather data. When a user enters a city name and clicks the search button, the application sends a request to the OpenWeatherMap API with the city name and an API key. The API returns a JSON object containing the weather data for the specified city. The application then extracts the necessary information from the JSON object, such as the temperature, weather description, and city name. This information is then displayed in the application's user interface. If the user enters an incorrect city name, the application will display an error message and reload the page after 5 seconds.The application's user interface consists of an input field for the city name, a search button, and a box to display the weather data.    to Use it : 
-  https:cityweatheronline.netlify.app </p>
+ <a href=" https:cityweatheronline.netlify.app">  </p>
+  
 
 <h4> <span> · </span> <a href="https://github.com/CodeWithMomin/WeatherApp/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/CodeWithMomin/WeatherApp/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/CodeWithMomin/WeatherApp/issues"> Request Feature </a> </h4>
 
