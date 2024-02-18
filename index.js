@@ -3,7 +3,7 @@ let city=document.querySelector("input");
 
 let btnclick=document.querySelector("button");
 //let city="dehli"
-const APIkey="4357583b230e807b4489064bb6883af0";
+const APIkey="";// write your own api key here 
  async function getWeather(APIKey,city){
     let response=(await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city.value}&units=metric&appid=${APIKey}`));
     let data=await response.json();
